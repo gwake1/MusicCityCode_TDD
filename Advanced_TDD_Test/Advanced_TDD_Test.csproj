@@ -54,9 +54,10 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Fizz_Buzzer\FizzBuzzerTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="CalculatorTest.cs" />
-    <Compile Include="AdderTest.cs" />
+    <Compile Include="Calculator\CalculatorTest.cs" />
+    <Compile Include="Calculator\AdderTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
