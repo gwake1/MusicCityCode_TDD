@@ -64,7 +64,7 @@ namespace Advanced_TDD_Test.Fizz_Buzzer
         [TestCase(2, "2")]
         [TestCase(3, "fizz")]
         [TestCase(4, "4")]
-        //[TestCase(5, "buzz")]
+        [TestCase(5, "buzz")]
         [TestCase(6, "fizz")]
         public void FizzBuzz_Translate_Paramterized_ReturnsFizz(int input, string expected)
         {
@@ -76,6 +76,19 @@ namespace Advanced_TDD_Test.Fizz_Buzzer
 
             // Assert
             Assert.That(actual, Is.EqualTo(expected));
+        }
+
+        [TestCase]
+        public void FizzBuzz_Translate_15_ReturnsFizzBuzz()
+        {
+            // Arrange
+
+
+            // Act
+            var actual = FizzBuzz.Translate(15);
+
+            // Assert
+            Assert.That(actual, Is.EqualTo("fizzbuzz"));
         }
     }
 }

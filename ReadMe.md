@@ -24,11 +24,11 @@
     - Second Law : You may not write more of a unit test than is sufficent to fail, and not compiling is failing.
     - Third Law : You may not write more production code than is sufficient to pass the currently failing test.
 
-## ZOMBIES
-        -       Z = Zero
-        -       O = One
-        -       M = Many
-        -       B = Boundaries
-        -       I = Interfaces
-        -       E = Exceptions
-        -       S = 
+## [TDD Guided By ZOMBIES](http://blog.wingman-sw.com/tdd-guided-by-zombies)
+    - Z = Zero
+    - O = One
+    - M = Many
+    - B = Boundaries
+    - I = Interfaces
+    - E = Exceptions
+    - S = Simple
