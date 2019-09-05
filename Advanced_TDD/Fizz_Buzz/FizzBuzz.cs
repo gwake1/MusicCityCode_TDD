@@ -4,19 +4,39 @@
     {
         public static string Translate(int input)
         {
-            if (input % 3 == 0 && input % 5 == 0)
+            if (isFizzy(input) && isBuzzy(input))
             {
                 return "fizzbuzz";
             }
-            if (input % 3 == 0)
+            if (isFizzy(input))
             {
                 return "fizz";
             }
-            if (input % 5 == 0)
+            if (isBuzzy(input))
             {
                 return "buzz";
             }
             return input.ToString();
         }
+
+        private static bool isFizzy(int input)
+        {
+            if (input % 3 == 0)
+            {
+                return true;
+            }
+            return false;
+        }
+
+        private static bool isBuzzy(int input)
+        {
+            if(input % 5 == 0)
+            {
+                return true;
+            }
+            return false;
+        }
     }
 }
+
+   
