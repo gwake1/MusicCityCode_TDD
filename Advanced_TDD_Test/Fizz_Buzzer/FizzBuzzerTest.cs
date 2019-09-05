@@ -1,8 +1,6 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Advanced_TDD.Fizz_Buzz;
 using NUnit.Framework;
 using Assert = NUnit.Framework.Assert;
-using Advanced_TDD.Fizz_Buzz;
 
 namespace Advanced_TDD_Test.Fizz_Buzzer
 {
@@ -14,18 +12,17 @@ namespace Advanced_TDD_Test.Fizz_Buzzer
         {
             // Arrange
 
-
             // Act
             var actual = FizzBuzz.Translate(1);
 
             // Assert
             Assert.That(actual, Is.EqualTo("1"));
         }
+
         [Test]
         public void FizzBuzz_TestTwo()
         {
             // Arrange
-
 
             // Act
             var actual = FizzBuzz.Translate(2);
@@ -39,7 +36,6 @@ namespace Advanced_TDD_Test.Fizz_Buzzer
         {
             // Arrange
 
-
             // Act
             var actual = FizzBuzz.Translate(3);
 
@@ -51,7 +47,6 @@ namespace Advanced_TDD_Test.Fizz_Buzzer
         public void FizzBuzz_Translate_Six_ReturnsFizz()
         {
             // Arrange
-
 
             // Act
             var actual = FizzBuzz.Translate(6);
@@ -70,7 +65,6 @@ namespace Advanced_TDD_Test.Fizz_Buzzer
         {
             // Arrange
 
-
             // Act
             var actual = FizzBuzz.Translate(input);
 
@@ -82,7 +76,6 @@ namespace Advanced_TDD_Test.Fizz_Buzzer
         public void FizzBuzz_Translate_15_ReturnsFizzBuzz()
         {
             // Arrange
-
 
             // Act
             var actual = FizzBuzz.Translate(15);

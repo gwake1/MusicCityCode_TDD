@@ -1,7 +1,6 @@
-﻿using System;
-using Advanced_TDD.Calculator;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Advanced_TDD.Calculator;
 using NUnit.Framework;
+using System;
 using Assert = NUnit.Framework.Assert;
 
 namespace Advanced_TDD_Test
@@ -85,6 +84,5 @@ namespace Advanced_TDD_Test
             var expected = 1;
             Assert.That(actual, Is.EqualTo(expected));
         }
-
     }
 }
