@@ -10,7 +10,11 @@ namespace Advanced_TDD.Fizz_Buzz
     {
         public static string Translate(int input)
         {
-            return "1";
+            if(input % 3 == 0)
+            {
+                return "fizz";
+            }
+            return input.ToString();
         }
 
     }
