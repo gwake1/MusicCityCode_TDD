@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Calculator\Adder.cs" />
     <Compile Include="Fizz_Buzz\FizzBuzz.cs" />
+    <Compile Include="PairProgram_FizzBuzz\PairProgramFizzBuzz.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
